@@ -8,6 +8,7 @@ import re
 
 # Now read the SQL table
 
+
 conn = sqlite3.connect('nfl_stats.sqlite')
 cur = conn.cursor()
 
